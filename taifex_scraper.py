@@ -23,4 +23,4 @@ headers = {
 
 response =  requests.post(url,data = json.dumps(payload),headers = headers)
 #json模組的dumps方法，來把json格式參數序列化
-print(response.json()['RtData']['QuoteList'][1])
+print(response.json()['RtData']['QuoteList'])
